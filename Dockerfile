@@ -22,7 +22,8 @@ RUN apt-get update && apt-get install -y \
     libmariadb-dev-compat \
     pkg-config \
     ca-certificates \
-    gnupg
+    gnupg \
+    tmux
 
 # Install Node.js 22.x (LTS) from NodeSource
 RUN curl -fsSL https://deb.nodesource.com/setup_22.x | bash - && \
